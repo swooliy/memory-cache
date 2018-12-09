@@ -1,0 +1,36 @@
+{
+    "name": "swooliy/memory-cache",
+    "description": "Memory Cache base on swoole.",
+    "keywords": [
+        "library",
+        "swoole",
+        "cache",
+        "memory"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ney Chang",
+            "email": "zoobileg@gmail.com",
+            "homepage": "https://github.com/zairl23"
+        }
+    ],
+    "require": {
+        "ext-swoole": "*",
+        "psr/simple-cache": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swooliy\\MemoryCache\\": "./src/Swooliy/MemoryCache/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Swooliy\\Tests\\MemoryCache\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
