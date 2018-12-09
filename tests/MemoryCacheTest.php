@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 use Swooliy\MemoryCache\MemoryCache;
 
 /**
- * Memory Cache Base on Swoole Memory implements psr-16: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-16-simple-cache.md
- * 
+ * Test for MemoryCache class
+ *  
  * @category Cache
  * @package  Swooliy\MemoryCache
  * @author   ney <zoobile@gmail.com>
